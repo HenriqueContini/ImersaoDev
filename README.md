@@ -1,6 +1,6 @@
 # ImersaoDev
 
-Neste site irei juntar alguns dos projetos que desenvolvi durante a imersão.dev da Alura.
+Neste site juntei alguns dos projetos que desenvolvi durante a imersão.dev da Alura.
 
 Projetos:
 
