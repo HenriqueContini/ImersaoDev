@@ -6,4 +6,4 @@ Projetos:
 
 🎬Aluraflix🎬
 
-Este site tem como objetivo expor capas de filmes, para isso será necessário colar o endereço da capa do filme e colar no espaço indicado.
+Este site tem como objetivo expor capas de filmes, para isso será necessário copiar o endereço da capa do filme e colar no espaço indicado.
