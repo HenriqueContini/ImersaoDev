@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trunfo-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <title>Super Trunfo</title>
+</head>
+<body>
+
+    <nav>
+        <div id="projetos">
+            <ul>
+                <li class="classProjetos" id="title-nav">Projetos: </li>
+                <li class="classProjetos" id="itens-projetos"><a href="Aluraflix/aluraflix.html">AluraFlix</a></li>
+                <li class="classProjetos" id="itens-projetos">Tabela de classificação</li>
+                <li class="classProjetos" id="itens-projetos"><a href="Supertrunfo/trunfo-index.html">Supertrunfo</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">Super Trunfo</h1>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="wrapper">
+                <div id="placar"></div>
+                <div id="quantidade-cartas"></div>
+                <div id="cartas">
+                    <div id="carta-jogador" class="carta"></div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+                <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
+                    disabled="false">Jogar</button>
+            </div>
+            <div id="resultado"></div>
+            <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima
+                rodada</button>
+        </form>
+    </div>
+
+    <script src="trunfo-script.js"></script>
+</body>
+</html>
