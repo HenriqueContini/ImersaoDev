@@ -22,6 +22,16 @@ body {
   color: white;
 }
 
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    font-size: 22px;
+    color: rgb(96, 125, 139);
+}
+
 #itens-projetos:hover {
   font-size: 22px;
   color: rgb(96, 125, 139);
